@@ -13,7 +13,7 @@ var gSheetNew = gSheetComb.filter(function(row){return row[1] === '2020-03-21'})
   
   Logger.log(gSheetNew);
 }
-
+//raw
 function addDash(row){
  //return [row[0]],row[1],row[   ]"-" ; ]
 }
