@@ -1,0 +1,19 @@
+function myFunction() {
+
+// If that's the case, then something like the following would first get rid of the rows that you don't want (I used a Javascript runner from w3schools to test this out: https://www.w3schools.com/jsref/tryit.asp?filename=tryjsref_filter):
+
+var gSheetComb = [["Pete Proffit", "2020-03-21", "10:00", "10:30", 0.5, "", "20-12345", "description"],
+                  ["Marky Mark", "2020-03-22", "12:15", "14:15", 2.0, "", "20-12346", "another description"]];
+
+var gSheetNew = gSheetComb.filter(function(row){return row[1] === '2020-03-21'});
+  
+    
+//    let array = [1,2,'deleted',4,5,'deleted',6,7]
+//let newarr = array.filter(a => a !== 'deleted')
+  
+  Logger.log(gSheetNew);
+}
+
+function addDash(row){
+ //return [row[0]],row[1],row[   ]"-" ; ]
+}
