@@ -1,7 +1,3 @@
----
-layout: default
----
-
 function myFunction() {
 
 // If that's the case, then something like the following would first get rid of the rows that you don't want (I used a Javascript runner from w3schools to test this out: https://www.w3schools.com/jsref/tryit.asp?filename=tryjsref_filter):
